@@ -51,3 +51,13 @@ a:hover {
     transform: translateX(2px);
   }
 }
+
+.text-color-white {
+  color: $white-color;
+
+  &:hover {
+    -webkit-text-fill-color: $dark-grey;
+    transform: translateX(2px);
+    
+  }
+}
